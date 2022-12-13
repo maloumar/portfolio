@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+}
+
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+section{
+    height: 100vh;
+}
+
+
+div section img.image-formation{
+    height: 166px;
+    width: 205px;
+}
+
+div section img.image-bts{
+    height: 166px;
+    width: 205px; 
+}
+div section img.image-unversite-strasbourg{
+    height: 100px;
+    width: 100px; 
+}
+
+h2{
+    text-align: center;
+}
