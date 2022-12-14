@@ -1,64 +1,80 @@
-*{
+* {
     padding: 0;
     margin: 0;
+
     box-sizing: border-box;
 }
+
 body {
-    background-color: ;
+    background-color: white;
 }
+
 nav {
     background-color: red;
     padding: 10px 40px 10px 70px;
     text-decoration: none;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: left;
     justify-content: center;
+
+}
+nav ul li{
+    
 }
 
-main div.menu{
+main div.menu {
     flex-direction: column;
     display: inline-flex;
     text-decoration: none;
     color: black;
 }
-main div.menu a{
+
+main div.menu a {
     text-decoration: none;
     font-size: 20px;
+    width: 100%;
+
+}
+
+nav div button {
+    background-color: white;
+    position: left;
     height: 5%;
     width: 6%;
     padding: 0 12px;
 }
 
 
-.container{
+.container {
     background-color: antiquewhite;
     height: 100vh;
 }
 
-section{
+section {
     height: 100vh;
 }
 
 
-div section img.image-formation{
+div section img.image-formation {
     height: 166px;
     width: 205px;
 }
 
-div section img.image-bts{
+div section img.image-bts {
     height: 166px;
-    width: 205px; 
-}
-div section img.image-unversite-strasbourg{
-    height: 100px;
-    width: 100px; 
+    width: 205px;
 }
 
-h2{
+div section img.image-unversite-strasbourg {
+    height: 100px;
+    width: 100px;
+}
+
+h2 {
     text-align: center;
 }
