@@ -4,8 +4,36 @@
     box-sizing: border-box;
 }
 body {
-    background-color: aquamarine;
+    background-color: ;
 }
+nav {
+    background-color: red;
+    padding: 10px 40px 10px 70px;
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main div.menu{
+    flex-direction: column;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+}
+main div.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    height: 5%;
+    width: 6%;
+    padding: 0 12px;
+}
+
 
 .container{
     background-color: antiquewhite;
