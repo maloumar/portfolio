@@ -20,7 +20,7 @@ nav ul {
     list-style: none;
     flex-wrap: wrap;
     align-items: left;
-    justify-content: center;
+    justify-content: right;
 
 }
 nav ul li{
