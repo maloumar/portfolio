@@ -10,22 +10,60 @@ body {
 }
 
 nav {
-    background-color: red;
+
     padding: 10px 40px 10px 70px;
     text-decoration: none;
 }
 
 nav ul {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    align-items: left;
-    justify-content: right;
-
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+	height: 100%;
+	font-size: .7em;
+	height: 6vh;
+    position: left ;
 }
 nav ul li{
-    
+    position: relative;
+	overflow: hidden;
+	background: #ff5142;
+	padding: .5rem .8rem;
+	color: #333;
+	font-size: 5px;
+	cursor: pointer;
+	border-radius: 100px;
+	outline: none;
+	border: none;
 }
+li a {
+	text-decoration: none;
+	color: rgb(14, 10, 2);
+	padding: 0 5px;
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	height: 100%;
+	font-size: 40px;
+    justify-content: space-between;
+}
+
+
+nav ul li::before {
+	--size: 0;
+	content: '';
+	position: absolute;
+	left: var(--x);
+	top: var(--y);
+	width: var(--size);
+	height: var(--size);
+	background: radial-gradient(circle closest-side, rgb(255, 219, 59), transparent);
+	transform: translate(-50%, -50%);
+	transition: all .1s ease;
+}
+
 
 main div.menu {
     flex-direction: column;
