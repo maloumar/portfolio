@@ -5,31 +5,15 @@
 }
 
 body {
-    background-color: white;
-}
+
+}+8
 
 nav {
     padding: 10px 40px 10px 70px;
     text-decoration: none;
 }
 
-
-nav div ul li{
-    position: relative;
-	overflow: hidden;
-	background: #ff5142;
-	padding: .5rem .8rem;
-	display: flex;
-	color: #333;
-	font-size: 5px;
-	cursor: pointer;
-	border-radius: 100px;
-	outline: none;
-	border: none;
-    
-}
-
-nav ul {
+nav div ul {
 	list-style: none;
 	display: flex;
 	padding: 0;
@@ -40,19 +24,7 @@ nav ul {
 	justify-content: right;
 }
 
-li a {
-	text-decoration: none;
-	color: rgb(14, 10, 2);
-	padding: 0 5px;
-	display: flex;
-	align-items: center;
-	background-color: transparent;
-	height: 100%;
-	font-size: 40px;
-
-}
-
-nav ul li {
+nav div ul li {
 	position: relative;
 	overflow: hidden;/* rge */
 	display: flex; 	
@@ -64,10 +36,22 @@ nav ul li {
 	border-radius: 100px;
 	outline: none;
 	border: none;
+}
 
+
+
+nav li a {
+	text-decoration: none;
+	color: rgb(14, 10, 2);
+	padding: 0 5px;
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	font-size: 40px;
 
 }
 
+/* Je n'ai tout compris ce partie de code */
 nav ul li::before {
 	--size: 0;
 	content: '';
@@ -84,29 +68,15 @@ nav ul li::before {
 
 main div.menu {
     flex-direction: column;
-    display: inline-flex;
+    display: flex;
     text-decoration: none;
-    color: black;
+
 }
 
 main div.menu a {
-    text-decoration: none;
-    font-size: 20px;
-    width: 100%;
 
-}
+    font-size: 15px;
 
-nav div button {
-    background-color: white;
-    position: left;
-    height: 5%;
-    width: 6%;
-    padding: 0 12px;
-}
-
-
-.container{
-    background-color: antiquewhite;
 
 }
 
