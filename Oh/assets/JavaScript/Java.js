@@ -1,5 +1,5 @@
 /* L'animation des boutons */
-document.getElementById('actif').onmousemove = (e) => {
+document.getElementById('actif-menu').onmousemove = (e) => {
     const x = e.pageX - e.target.offsetLeft
     const y = e.pageY - e.target.offsetTop
 

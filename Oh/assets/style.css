@@ -6,11 +6,12 @@
 
 body {
 
-}+8
+}
 
 nav {
     padding: 10px 40px 10px 70px;
     text-decoration: none;
+	
 }
 
 nav div ul {
@@ -47,6 +48,7 @@ nav li a {
 	display: flex;
 	align-items: center;
 	background-color: transparent;
+
 	font-size: 40px;
 
 }
@@ -76,7 +78,7 @@ main div.menu {
 main div.menu a {
 
     font-size: 15px;
-
+    width: 100%;
 
 }
 
@@ -106,4 +108,11 @@ div section img.image-unversite-strasbourg {
 
 h2 {
     text-align: center;
+}
+
+.first-page{
+	background-color: rgb(66, 59, 59);
+	color: white;
+	padding: 145px 100px 100px;
+
 }
