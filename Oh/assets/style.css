@@ -1,16 +1,14 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-body {
-
-}
+body {}
 
 nav {
-    padding: 10px 40px 10px 70px;
-    text-decoration: none;
+	padding: 10px 40px 10px 70px;
+	text-decoration: none;
 
 }
 
@@ -27,8 +25,8 @@ nav div ul {
 
 nav div ul li {
 	position: relative;
-	overflow: hidden;/* rge */
-	display: flex; 	
+	overflow: hidden;
+	display: flex;
 	background: #ff5142;
 	padding: .5rem .8rem;
 	color: #333;
@@ -39,8 +37,6 @@ nav div ul li {
 	border: none;
 }
 
-
-
 nav li a {
 	text-decoration: none;
 	color: rgb(14, 10, 2);
@@ -48,71 +44,135 @@ nav li a {
 	display: flex;
 	align-items: center;
 	background-color: transparent;
-
 	font-size: 40px;
-
 }
 
-/* Je n'ai tout compris ce partie de code */
-nav ul li::before {
-	--size: 0;
-	content: '';
-	position: absolute;
-	left: var(--x);
-	top: var(--y);
-	width: var(--size);
-	height: var(--size);
-	background: radial-gradient(circle closest-side, rgb(255, 219, 59), transparent);
-	transform: translate(-50%, -50%);
-	transition: all .1s ease;
-}
+
 
 
 main div.menu {
-    flex-direction: column;
-    display: flex;
-    text-decoration: none;
+	flex-direction: column;
+	display: flex;
+	text-decoration: none;
 
 }
 
 main div.menu a {
 
-    font-size: 15px;
-    width: 100%;
+	font-size: 15px;
+	width: 100%;
 
 }
 
 section {
-    height: 100vh;
+	height: 100vh;
 }
 
-.text-panel{
-    width: 50vh;
-    text-align: center;
+.text-panel {
+	width: 50vh;
+	text-align: center;
 }
 
 div section img.image-formation {
-    height: 166px;
-    width: 205px;
+	height: 166px;
+	width: 205px;
 }
 
 div section img.image-bts {
-    height: 166px;
-    width: 205px;
+	height: 166px;
+	width: 205px;
 }
 
 div section img.image-unversite-strasbourg {
-    height: 100px;
-    width: 100px;
+	height: 100px;
+	width: 100px;
 }
 
 h2 {
-    text-align: center;
+	text-align: center;
 }
 
-.first-page{
+.first-page {
 	background-color: rgb(66, 59, 59);
 	color: white;
 	padding: 145px 100px 100px;
 
+}
+
+.fith-section{
+	background-color: aliceblue;
+}
+
+.fith-section btn-projet {
+	text-transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last-section {
+	background-color: silver;
+	text-decoration: none;
+}
+
+.last-section i {
+	width: 50px;
+	height: 500px;
+}
+
+.add-me {
+	text-align: center;
+}
+
+.add-me a{
+	width: 100px;
+	height: 100px;
+}
+
+
+
+.last-section h3 {
+	text-align: center;
+}
+
+
+footer div {
+	display: flex;
+	left: 50%;
+
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 50px;
+
+}
+
+footer p {
+	padding: 0 20px 0;
 }
