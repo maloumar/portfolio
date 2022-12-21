@@ -6,8 +6,17 @@
 
 body {}
 
+
+/* header */
+.menu{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
 nav {
-	padding: 10px 40px 10px 70px;
+	padding: 10px 0 10px ;
 	text-decoration: none;
 
 }
@@ -28,7 +37,7 @@ nav div ul li {
 	overflow: hidden;
 	display: flex;
 	background: #ff5142;
-	padding: .5rem .8rem;
+	padding: .2rem .2rem;
 	color: #333;
 	font-size: 8px;
 	cursor: pointer;
@@ -43,14 +52,12 @@ nav li a {
 	padding: 0 5px;
 	display: flex;
 	align-items: center;
-
-	font-size: 40px;
 }
 
 
 main div.menu a {
 	font-size: 15px;
-	width: 100%;
+
 }
 
 
@@ -60,10 +67,6 @@ section {
 	height: 100vh;
 }
 
-.text-panel {
-	width: 50vh;
-	text-align: center;
-}
 
 div section img.image-formation {
 	height: 166px;
@@ -80,19 +83,36 @@ div section img.image-unversite-strasbourg {
 	width: 100px;
 }
 
+/* Tout les H2 dans le site vont se mettre au centre */
 h2 {
 	text-align: center;
 }
 
-.first-page {
-	background-color: rgb(66, 59, 59);
-	color: white;
-	padding: 145px 100px 100px;
-
+nav .logo img{
+	width: 100px;
+	height: 100px;
 }
 
 
+/* 1er page */
 
+.first-page {
+	background-color: rgb(66, 59, 59);
+	color: white;
+	padding: 145px;
+
+}
+
+.text-panel {
+	padding: 140px;
+}
+
+.computer-image img {
+	width: 600px;
+	height: 600px;
+	display:flex;
+
+}
 
 
 
@@ -113,7 +133,7 @@ h2 {
 }
 
 
-.btn-projets{
+.btn-projets {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -165,7 +185,7 @@ section div div.btn-projets a {
 	text-align: center;
 }
 
-.add-me i{
+.add-me i {
 	width: 50px;
 	height: 50px;
 }
