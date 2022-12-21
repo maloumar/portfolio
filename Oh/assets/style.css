@@ -7,18 +7,22 @@
 body {}
 
 
-/* header */
+/*Mon header */
 .menu{
-	position: absolute;
+	position: fixed;
 	height: 100%;
 	width: 100%;
+	
 }
 
+nav{
 
-nav {
 	padding: 10px 0 10px ;
 	text-decoration: none;
-
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	
 }
 
 nav div ul {
@@ -148,8 +152,16 @@ section div div.btn-projets a {
 	align-items: center;
 }
 
-
-
+/* Setting images .... */
+.item {
+	margin: 0 10px;
+	background: #fff;
+	color: #333;
+  }
+  
+  .item img {
+	width: 100%;
+  }
 
 
 
