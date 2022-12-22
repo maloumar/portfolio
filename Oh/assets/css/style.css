@@ -9,7 +9,7 @@ body {}
 
 /*Mon header */
 .menu {
-	position: fixed;
+
 	height: 100%;
 	width: 100%;
 
@@ -19,7 +19,6 @@ nav {
 
 	padding: 10px 0 10px;
 	text-decoration: none;
-	position: fixed;
 	display: flex;
 	flex-direction: row;
 
@@ -119,6 +118,11 @@ nav .logo img {
 }
 
 
+/* 4e page */
+.fourth-page{
+	background-color: #e1e9d4;
+}
+
 
 
 
@@ -179,15 +183,19 @@ section div div.btn-projets a {
 
 .add-me {
 	text-align: center;
-	position: relative;
-	top: 350px;
+
 }
 
-.add-me{
-	
+.add-me a{
+	padding-bottom: 10px 100px 100px;
 }
 
-
+.add-me img{
+	background-color: #e1e9d4;
+	width: 150px;
+	height: 150px;
+	margin: 0 10px;
+}
 
 .last-section h3 {
 	text-align: center;
