@@ -4,7 +4,10 @@
 	box-sizing: border-box;
 }
 
-body {}
+body {	
+	background-repeat:repeat;
+	background-image: url('/Oh/assets/images/HD-gratuit.jpg');
+}
 
 
 /*Mon header */
@@ -100,9 +103,13 @@ nav .logo img {
 /* 1er page */
 
 .first-page {
-	background-color: rgb(229, 238, 209);
+	/* background-color: rgb(229, 238, 209); */
 	color: black;
 	padding: 145px;
+}
+
+.text {
+	justify-content: space-between;
 }
 
 .text-panel {
@@ -112,9 +119,11 @@ nav .logo img {
 .computer-image img {
 	width: 500px;
 	height: 300px;
-	display: flex;
-	position: relative;
-
+	
+/* 	position: relative; */
+	float: right;
+	border: 0px solid;
+	padding: 0;
 }
 
 
@@ -187,11 +196,11 @@ section div div.btn-projets a {
 }
 
 .add-me a{
-	padding-bottom: 10px 100px 100px;
+	padding-bottom: 10px ;
 }
 
 .add-me img{
-	background-color: #e1e9d4;
+	background-color: none;
 	width: 150px;
 	height: 150px;
 	margin: 0 10px;
