@@ -7,7 +7,7 @@
 body {	
 	color: black;
 	background-color: white;
-	background-image: url(/Oh/assets/images/HD-gratuit.jpg);
+	background-image: url(/Oh/assets/images/tissu.jpg);
 	margin: 0;
 	background-repeat: repeat;
 
@@ -70,6 +70,9 @@ main div.menu a {
 
 }
 
+.menu .button{
+	
+}
 
 
 
@@ -263,6 +266,13 @@ section div div.btn-projets a {
 .last-section h3 {
 	text-align: center;
 }
+
+.col p{
+
+}
+
+
+
 
 
 footer div {
